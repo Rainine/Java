@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af791551-aa00-4491-b426-373be4be7af2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PlantUML Activity" />
+        <option value="PlantUML Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kic03zdaCHXMznoilFkWBf4xFH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="PlantUML Class.puclass" value="PlantUML Activity" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project1" />
+  </component>
+  <component name="RunManager" selected="Application.Test1 (1)">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工厂设计模式.抽象工厂.Test" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工厂设计模式.抽象工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工厂设计模式.简单工厂.Test1" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工厂设计模式.简单工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工厂设计模式.Test1" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工厂设计模式.抽象工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工厂设计模式.Test2" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工厂设计模式.抽象工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleFactory1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="工厂设计模式.TestSimpleFactory1" />
+      <module name="设计模式" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="工厂设计模式.抽象工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.TestSimpleFactory1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af791551-aa00-4491-b426-373be4be7af2" name="Default Changelist" comment="" />
+      <created>1606186625820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606186625820</updated>
+      <workItem from="1606186628480" duration="883000" />
+      <workItem from="1606188262536" duration="2655000" />
+      <workItem from="1606442676852" duration="1198000" />
+      <workItem from="1606543530813" duration="1488000" />
+      <workItem from="1606876211283" duration="602000" />
+      <workItem from="1606877163854" duration="359000" />
+      <workItem from="1606877565095" duration="1018000" />
+      <workItem from="1606987477935" duration="32210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607226124873">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1607226124873" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1607232745340">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="2685" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606992082069" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049@0.0.1920.1049" timestamp="1607232745340" />
+    <state x="781" y="270" key="FileChooserDialogImpl" timestamp="1607224402639">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="2701" y="270" key="FileChooserDialogImpl/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606186846977" />
+    <state x="781" y="270" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1607224402639" />
+    <state width="1876" height="181" key="GridCell.Tab.0.bottom" timestamp="1607235310754">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606992477141" />
+    <state width="1876" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1607235310754" />
+    <state width="1876" height="181" key="GridCell.Tab.0.center" timestamp="1607235310754">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.0.center/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606992477140" />
+    <state width="1876" height="181" key="GridCell.Tab.0.center/0.0.1920.1049@0.0.1920.1049" timestamp="1607235310754" />
+    <state width="1876" height="181" key="GridCell.Tab.0.left" timestamp="1607235310754">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.0.left/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606992477140" />
+    <state width="1876" height="181" key="GridCell.Tab.0.left/0.0.1920.1049@0.0.1920.1049" timestamp="1607235310754" />
+    <state width="1876" height="181" key="GridCell.Tab.0.right" timestamp="1607235310754">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="335" key="GridCell.Tab.0.right/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606992477141" />
+    <state width="1876" height="181" key="GridCell.Tab.0.right/0.0.1920.1049@0.0.1920.1049" timestamp="1607235310754" />
+    <state width="1876" height="351" key="GridCell.Tab.1.bottom" timestamp="1607141293762">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1607141293762" />
+    <state width="1876" height="351" key="GridCell.Tab.1.center" timestamp="1607141293762">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="351" key="GridCell.Tab.1.center/0.0.1920.1049@0.0.1920.1049" timestamp="1607141293762" />
+    <state width="1876" height="351" key="GridCell.Tab.1.left" timestamp="1607141293761">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="351" key="GridCell.Tab.1.left/0.0.1920.1049@0.0.1920.1049" timestamp="1607141293761" />
+    <state width="1876" height="351" key="GridCell.Tab.1.right" timestamp="1607141293762">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1876" height="351" key="GridCell.Tab.1.right/0.0.1920.1049@0.0.1920.1049" timestamp="1607141293762" />
+    <state x="681" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1606990589013">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="681" y="368" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/1920.0.1920.1050@0.0.1920.1049" timestamp="1606990589013" />
+    <state x="2601" y="368" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606543825528" />
+    <state x="658" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607226054294">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="658" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1049@0.0.1920.1049" timestamp="1607226054294" />
+    <state x="334" y="134" key="new project wizard" timestamp="1607223076775">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="334" y="134" key="new project wizard/0.0.1920.1049@0.0.1920.1049" timestamp="1607223076775" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607150122501">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1607150122501" />
+  </component>
+</project>
