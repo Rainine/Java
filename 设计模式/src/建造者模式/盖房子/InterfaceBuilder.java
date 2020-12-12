@@ -6,9 +6,9 @@ package 建造者模式.盖房子;
  **/
 public interface InterfaceBuilder {
 
-    public  void  buildBasic();
-    public  void  buildWall();
-    public  void  buildRoof();
+    public  InterfaceBuilder  buildBasic();
+    public  InterfaceBuilder  buildWall();
+    public  InterfaceBuilder  buildRoof();
     public  House builder();
 
 }

@@ -1,5 +1,7 @@
 package 建造者模式.盖房子;
 
+import org.omg.CORBA.INTERNAL;
+
 /**
  * @author lxy
  * @date 2020/12/12 14:13
@@ -11,14 +13,27 @@ public class DirectBuilder {
     public DirectBuilder(InterfaceBuilder interfaceBuilder) {
         this.interfaceBuilder = interfaceBuilder;
     }
-    public  House getResult(){
-        interfaceBuilder.buildBasic();
-        interfaceBuilder.buildWall();
-        interfaceBuilder.buildRoof();
-        return interfaceBuilder.builder();
-    }
-    public  void  setInterfaceBuilder(InterfaceBuilder interfaceBuilder){
+    public void setInterfaceBuilder(InterfaceBuilder interfaceBuilder) {
         this.interfaceBuilder = interfaceBuilder;
+    }
+
+    public InterfaceBuilder buildBasic() {
+        InterfaceBuilder interfaceBuilder = this.interfaceBuilder.buildBasic();
+        return interfaceBuilder;
+    }
+
+    public InterfaceBuilder buildWall() {
+        InterfaceBuilder interfaceBuilder = this.interfaceBuilder.buildWall();
+        return interfaceBuilder;
+    }
+
+    public InterfaceBuilder buildRoof() {
+        InterfaceBuilder interfaceBuilder = this.interfaceBuilder.buildRoof();
+        return interfaceBuilder;
+    }
+    public  House buildHouse(){
+        House house = this.interfaceBuilder.builder();
+        return house;
     }
 
 }
