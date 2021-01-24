@@ -51,7 +51,9 @@ public class WeatherData implements Register {
         pushDate();
     }
 
-
+    /**
+     * 气象局更新数据
+     */
     public void setData(float temperature, float pressure, float humidity) {
         this.temperature = temperature;
         this.pressure = pressure;
@@ -59,23 +61,29 @@ public class WeatherData implements Register {
         dataChange();
     }
 
+    /**
+     * 注册用户
+     */
     @Override
-/**注册用户*/
     public void register(Observe observe) {
         currentConditions.add(observe);
     }
 
+    /**
+     * 用户注销
+     */
     @Override
-/**用户注销*/
     public void removerUser(Observe observe) {
         if (currentConditions.contains(observe)) {
             currentConditions.remove(observe);
         }
     }
 
+    /**
+     * 遍历所有观察者将数据推送给他们
+     */
     @Override
     public void pushDate() {
-        /**遍历所有观察者将数据推送给他们*/
         for (Observe currentCondition : currentConditions) {
             currentCondition.update(this.temperature, this.pressure, this.humidity);
         }
