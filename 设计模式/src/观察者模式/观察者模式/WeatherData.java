@@ -20,11 +20,15 @@ public class WeatherData implements Register {
     private float humidity;
     private List<Observe> currentConditions = new ArrayList<>();
 
+    /**
+     * 最好不用构造器的方式来添加对象
+     */
     public WeatherData(Observe currentConditions) {
         this.currentConditions.add(currentConditions);
 
     }
-    public void setWeatherData(Observe currentConditions){
+
+    public void setWeatherData(Observe currentConditions) {
         this.currentConditions.add(currentConditions);
     }
 
@@ -40,10 +44,12 @@ public class WeatherData implements Register {
         return humidity;
     }
 
+    /**
+     * 给第三方推送消息
+     */
     public void dataChange() {
         pushDate();
     }
-
 
 
     public void setData(float temperature, float pressure, float humidity) {
@@ -54,11 +60,13 @@ public class WeatherData implements Register {
     }
 
     @Override
+/**注册用户*/
     public void register(Observe observe) {
         currentConditions.add(observe);
     }
 
     @Override
+/**用户注销*/
     public void removerUser(Observe observe) {
         if (currentConditions.contains(observe)) {
             currentConditions.remove(observe);
@@ -67,8 +75,9 @@ public class WeatherData implements Register {
 
     @Override
     public void pushDate() {
+        /**遍历所有观察者将数据推送给他们*/
         for (Observe currentCondition : currentConditions) {
-            currentCondition.update(this.temperature,this.pressure,this.humidity);
+            currentCondition.update(this.temperature, this.pressure, this.humidity);
         }
     }
 }
