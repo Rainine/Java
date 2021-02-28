@@ -1,5 +1,7 @@
 package 观察者模式.观察者模式;
 
+import java.util.HashMap;
+
 /**
  * @author lxy
  * @date 2021/1/24 12:54
@@ -7,6 +9,19 @@ package 观察者模式.观察者模式;
 public class ClientTest {
 
     public static void main(String[] args) {
+
+        HashMap<String,String> sum = new HashMap<>();
+                sum.put("1","qw");
+                sum.put("2","qw1");
+                sum.put("3","qw2");
+                sum.put("4","qw3");
+        System.out.println(  sum.get("5"));
+        System.out.println("Map");
+
+
+
+
+
         final CurrentConditions currentConditions = new CurrentConditions();
         final WeChat weChat = new WeChat();
         final WeatherData weatherData = new WeatherData(currentConditions);

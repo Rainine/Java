@@ -11,17 +11,22 @@ import java.util.UUID;
  **/
 public class Test {
 
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
         List<String> str = new ArrayList<>();
         str.add("Silk-screen operation　丝印 ");
         System.out.println(str.contains("Silk-screen operation　丝印 "));
         Set<String> strr = new HashSet<>();
-        strr.add("Silk-screen operation　丝印 ")  ;
+        strr.add("Silk-screen operation　丝印 ");
         System.out.println(strr.contains("Silk-screen operation 丝印 "));
-        for (int i=0;i<20;i++){
+//        for (int i=0;i<20;i++){
+//
+//            System.out.println(UUID.randomUUID().toString()+"->"+System.currentTimeMillis());
+//        }
+        System.out.println("**********************************");
+        Student s1 = new Student("lxy");
+        Student s2 = new Student("lxy");
 
-            System.out.println(UUID.randomUUID().toString()+"->"+System.currentTimeMillis());
-        }
+        System.out.println(UUID.randomUUID().toString());
     }
 
 }

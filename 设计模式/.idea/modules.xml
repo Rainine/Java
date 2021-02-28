@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../fix1021/JUC高并发系列/JUC高并发系列.iml" filepath="$PROJECT_DIR$/../../fix1021/JUC高并发系列/JUC高并发系列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/数据结构和算法/数据结构和算法.iml" filepath="$PROJECT_DIR$/数据结构和算法/数据结构和算法.iml" />
       <module fileurl="file://$PROJECT_DIR$/设计模式.iml" filepath="$PROJECT_DIR$/设计模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../fix1021/JUC高并发系列/项目/项目.iml" filepath="$PROJECT_DIR$/../../fix1021/JUC高并发系列/项目/项目.iml" />
     </modules>
   </component>
 </project>
