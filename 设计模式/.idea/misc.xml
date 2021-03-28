@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../../fix1021/JUC高并发系列/项目/pom.xml" />
         <option value="$PROJECT_DIR$/JVM/JUC/pom.xml" />
       </set>
     </option>

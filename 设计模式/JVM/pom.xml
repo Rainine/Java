@@ -11,6 +11,15 @@
   <modules>
     <module>JUC</module>
   </modules>
+  <dependencies>
 
+    <dependency>
+      <groupId>com.kevadiyakrunalk</groupId>
+      <artifactId>commonutils</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+
+  </dependencies>
 
 </project>
